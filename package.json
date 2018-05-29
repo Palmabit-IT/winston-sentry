@@ -1,5 +1,5 @@
 {
-  "name": "winston-sentry2",
+  "name": "@palmabit/winston-sentry2",
   "version": "0.2.2",
   "description": "Sentry transport for the winston logger.",
   "main": "sentry-transport.js",

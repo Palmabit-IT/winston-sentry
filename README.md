@@ -1,4 +1,4 @@
-winston-sentry
+winston-sentry2
 ==============
 
 Sentry transport for winston logger for node js
@@ -6,10 +6,14 @@ Sentry transport for winston logger for node js
 
 Follow this sample configuration to use:
 
+```bash
+npm i @palmabit/winston-sentry2
+```
+
 ```javascript
 var winston = require('winston'),
     Mail = require('winston-mail').Mail,
-    Sentry = require('winston-sentry');
+    Sentry = require('@palmabit/winston-sentry2');
 
 var logger = new winston.Logger({
     transports: [
