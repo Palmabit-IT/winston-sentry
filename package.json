@@ -1,6 +1,6 @@
 {
-  "name": "winston-sentry",
-  "version": "0.2.1",
+  "name": "winston-sentry2",
+  "version": "0.2.2",
   "description": "Sentry transport for the winston logger.",
   "main": "sentry-transport.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.4",
-    "raven": "^1.1.4"
+    "raven": "^2.6.2"
   },
   "peerDependencies": {
     "winston": ">= 0.7.0"
