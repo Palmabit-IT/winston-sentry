@@ -11,11 +11,10 @@ npm i @palmabit/winston-sentry2
 ```
 
 ```javascript
-var winston = require('winston'),
-    Mail = require('winston-mail').Mail,
+const winston = require('winston'),
     Sentry = require('@palmabit/winston-sentry2');
 
-var logger = new winston.Logger({
+const logger = new winston.Logger({
     transports: [
         new winston.transports.Console({level: 'silly'}),
         new Sentry({
@@ -60,7 +59,9 @@ new Sentry({
 ```
 
 Changelog
----------
+
+**0.2.2** - 2018-05-29
+* Updated Raven client to version 2.6.2
 
 **0.2.1**
 * Changelog updated. No code changes.
